@@ -439,7 +439,7 @@ def ps_chip(
 
     Examples
     --------
-    >>> processed_chip = ps_chip(data=my_image_data, channels=[0], pinlist='pinlist.csv', overlap=100, rotation=45)
+    >>> processed_chip = ps_chip(data=my_image_data, channels=[0], pinlist='pinlist.csv', overlap=100, rotation=45)a
     
     This processes `my_image_data` by stitching tiles with 100 pixels of overlap, rotating the image by 45 degrees, using channel 0 for detection, and utilizing a pin layout from 'pinlist.csv'.
     """
